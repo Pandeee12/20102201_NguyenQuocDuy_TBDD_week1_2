@@ -5,4 +5,6 @@ Ex1&2:
 
 Ex3: 
 ![image](https://github.com/user-attachments/assets/0f7858df-8f44-4fe1-a2ea-5cae79a88060)
+![image](https://github.com/user-attachments/assets/0f072d83-909f-48be-9907-121bb8ec5699)
+
 
