@@ -10,3 +10,5 @@ Ex3:
 Ex4: 
 ![image](https://github.com/user-attachments/assets/0385ef34-955f-4278-814a-9e325863934e)
 
+Part 2 - Ex1: 
+![image](https://github.com/user-attachments/assets/f268a675-6882-4a01-9b5d-3c53bc6de42e)
