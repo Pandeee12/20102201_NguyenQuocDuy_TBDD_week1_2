@@ -12,3 +12,6 @@ Ex4:
 
 Part 2 - Ex1: 
 ![image](https://github.com/user-attachments/assets/f268a675-6882-4a01-9b5d-3c53bc6de42e)
+
+Part 2- Ex2:
+![image](https://github.com/user-attachments/assets/ef25f884-5879-45e9-bccf-5d827a0131f5)
