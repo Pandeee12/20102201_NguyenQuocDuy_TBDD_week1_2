@@ -18,3 +18,7 @@ Part 2- Ex2:
 
 Part 2 - Ex3:
 ![image](https://github.com/user-attachments/assets/1b0f6a5a-7040-4b30-b151-525fb87518e8)
+
+Part2 - Ex4:
+![image](https://github.com/user-attachments/assets/13e05eb5-0855-4aea-8622-e6bbb1a17fe4)
+
