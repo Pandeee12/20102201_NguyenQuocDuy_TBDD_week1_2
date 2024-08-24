@@ -15,3 +15,6 @@ Part 2 - Ex1:
 
 Part 2- Ex2:
 ![image](https://github.com/user-attachments/assets/ef25f884-5879-45e9-bccf-5d827a0131f5)
+
+Part 2 - Ex3:
+![image](https://github.com/user-attachments/assets/1b0f6a5a-7040-4b30-b151-525fb87518e8)
