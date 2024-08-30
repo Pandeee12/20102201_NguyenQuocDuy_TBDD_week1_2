@@ -25,4 +25,9 @@ Part2 - Ex4:
 Bonus Part2 - Ex4:
 ![image](https://github.com/user-attachments/assets/1f53de18-8731-4ebd-be33-b9179140a19b)
 
+Ex9: 
+![image](https://github.com/user-attachments/assets/44bab14e-c080-44d6-8f95-d9b5b3afc414)
+
+
+
 
