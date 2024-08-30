@@ -151,16 +151,16 @@ Compare(Dolphins_Average3, Koalas_Average3)
 
 console.log("Ex4: ")
 
-function tip(a){
-    let tip=0;
-    return tip = (a>=50 && a<=300) ? a*0.15 : a*0.2;
+function tip(a) {
+    let tip = 0;
+    return tip = (a >= 50 && a <= 300) ? a * 0.15 : a * 0.2;
 }
 
-let bill =[275,40,430]
+let bill = [275, 40, 430]
 
-console.log("The bill was (",bill[0],"), the tip was  (",tip(bill[0]),") and the total value: (",bill[0]+tip(bill[0]),")");
-console.log("The bill was (",bill[1],"), the tip was  (",tip(bill[1]),") and the total value: (",bill[1]+tip(bill[1]),")");
-console.log("The bill was (",bill[2],"), the tip was  (",tip(bill[2]),") and the total value: (",bill[2]+tip(bill[2]),")");
+console.log("The bill was (", bill[0], "), the tip was  (", tip(bill[0]), ") and the total value: (", bill[0] + tip(bill[0]), ")");
+console.log("The bill was (", bill[1], "), the tip was  (", tip(bill[1]), ") and the total value: (", bill[1] + tip(bill[1]), ")");
+console.log("The bill was (", bill[2], "), the tip was  (", tip(bill[2]), ") and the total value: (", bill[2] + tip(bill[2]), ")");
 
 
 //Part 2 - Ex1
@@ -169,23 +169,23 @@ console.log("The bill was (",bill[2],"), the tip was  (",tip(bill[2]),") and the
 
 console.log("Part 2 - Ex1: ")
 
-let avg1_Dolphins = Average(44,23,71);
-let avg2_Dolphins = Average(85,54,41);
-let avg1_Koalas = Average(65,54,49);
-let avg2_Koalas = Average(23,34,27);
+let avg1_Dolphins = Average(44, 23, 71);
+let avg2_Dolphins = Average(85, 54, 41);
+let avg1_Koalas = Average(65, 54, 49);
+let avg2_Koalas = Average(23, 34, 27);
 
-function checkWinner(a,b){
-    if(a>= 2*b)
-        console.log("Dolphins win (",a,") vs (",b,")")
-    else if(b>= a*a)
-        console.log("Koalas win (",b,") vs (",a,")")
+function checkWinner(a, b) {
+    if (a >= 2 * b)
+        console.log("Dolphins win (", a, ") vs (", b, ")")
+    else if (b >= a * a)
+        console.log("Koalas win (", b, ") vs (", a, ")")
     else
-        console.log("No team win!(",a,") vs (",b,")");
+        console.log("No team win!(", a, ") vs (", b, ")");
 
 }
 
-checkWinner(avg1_Dolphins,avg1_Koalas);
-checkWinner(avg2_Dolphins,avg2_Koalas);
+checkWinner(avg1_Dolphins, avg1_Koalas);
+checkWinner(avg2_Dolphins, avg2_Koalas);
 
 //Part 2 - Ex2
 //Your tasks:
@@ -202,12 +202,12 @@ checkWinner(avg2_Dolphins,avg2_Koalas);
 
 console.log("Part2 - Ex2: ");
 let check = 100;
-console.log("(Check) The bill was (",check,"), the tip was  (",tip(check),") and the total value: (",check+tip(check),")");
-let bill_p2_ex2 = [125,555,44];
-let tips = [tip(bill_p2_ex2[0]),tip(bill_p2_ex2[1]),tip(bill_p2_ex2[2])];
-let totals = [bill_p2_ex2[0]+tips[0],bill_p2_ex2[1]+tips[1],bill_p2_ex2[2]+tips[2]];
-for(let i=0;i<=2;i++){
-    console.log("Bills:",bill_p2_ex2[i]," Tips : ",tips[i]," Totals: ",totals[i]);
+console.log("(Check) The bill was (", check, "), the tip was  (", tip(check), ") and the total value: (", check + tip(check), ")");
+let bill_p2_ex2 = [125, 555, 44];
+let tips = [tip(bill_p2_ex2[0]), tip(bill_p2_ex2[1]), tip(bill_p2_ex2[2])];
+let totals = [bill_p2_ex2[0] + tips[0], bill_p2_ex2[1] + tips[1], bill_p2_ex2[2] + tips[2]];
+for (let i = 0; i <= 2; i++) {
+    console.log("Bills:", bill_p2_ex2[i], " Tips : ", tips[i], " Totals: ", totals[i]);
 }
 
 
@@ -226,29 +226,29 @@ for(let i=0;i<=2;i++){
 // Test data: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m
 // tall.
 console.log("Part 2 - Ex3")
-class user{
-    constructor(fullname,mass,height){
+class user {
+    constructor(fullname, mass, height) {
         this.fullname = fullname;
         this.mass = mass;
         this.height = height;
     }
 }
 
-let user_mark = new user('Mark Miller',78,1.96);
-let user_john = new user('John Smith',92,1.95);
+let user_mark = new user('Mark Miller', 78, 1.96);
+let user_john = new user('John Smith', 92, 1.95);
 
-let BMI_user_mark = BMI(user_mark.mass,user_mark.height);
-let BMI_user_john = BMI(user_john.mass,user_john.height);
+let BMI_user_mark = BMI(user_mark.mass, user_mark.height);
+let BMI_user_john = BMI(user_john.mass, user_john.height);
 
-function BMI_higher(a,b){
-    if(a>b)
-        console.log("John's BMI (",a,") is higher than Mark's BMI(",b,")");
-    else if(a<b)
-        console.log("Mark's BMI (",b,") is higher than John's BMI(",a,")");
+function BMI_higher(a, b) {
+    if (a > b)
+        console.log("John's BMI (", a, ") is higher than Mark's BMI(", b, ")");
+    else if (a < b)
+        console.log("Mark's BMI (", b, ") is higher than John's BMI(", a, ")");
     else
         console.log("BMI same~");
 }
-BMI_higher(BMI_user_john,BMI_user_mark);
+BMI_higher(BMI_user_john, BMI_user_mark);
 
 //Part 2 - Ex4
 // Let's improve Steven's tip calculator even more, this time using loops!
@@ -275,27 +275,57 @@ BMI_higher(BMI_user_john,BMI_user_mark);
 // length of the array (because that's the number of elements)
 // 4.3. Call the function with the 'totals' array
 
-console.log("Part 2 - Ex4: "); 
-let arr_bill = [22,295,176,440,37,105,10,1100,86,52];
+console.log("Part 2 - Ex4: ");
+let arr_bill = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
 let arr_tip = [];
 let arr_total = [];
 
-for(let j=0;j<=9;j++){
-   arr_tip.push(tip(arr_bill[j]));
-   arr_total.push(arr_tip[j]+arr_bill[j]);
-   console.log("Bills",j+1,":",arr_bill[j]," Tips : ",arr_tip[j]," Totals: ",arr_total[j]);
+for (let j = 0; j <= 9; j++) {
+    arr_tip.push(tip(arr_bill[j]));
+    arr_total.push(arr_tip[j] + arr_bill[j]);
+    console.log("Bills", j + 1, ":", arr_bill[j], " Tips : ", arr_tip[j], " Totals: ", arr_total[j]);
 }
 
 console.log("Bonus Part 2 - Ex4: ");
 
-function calcAverage(a){
+function calcAverage(a) {
     let sum = 0;
-    for(let i=0;i<=9;i++){
+    for (let i = 0; i <= 9; i++) {
         sum += a[i];
     }
-    return sum/9;
+    return sum / 9;
 }
 
-console.log("Average of Bill: ",calcAverage(arr_bill));
-console.log("Average of Tip: ",calcAverage(arr_tip));
-console.log("Average of total: ",calcAverage(arr_total));
+console.log("Average of Bill: ", calcAverage(arr_bill));
+console.log("Average of Tip: ", calcAverage(arr_tip));
+console.log("Average of total: ", calcAverage(arr_total));
+
+//Ex9
+// Given an array of forecasted maximum temperatures, the thermometer displays a
+// string with the given temperatures. Example: [17, 21, 23] will print &quot;... 17oC in 1
+// days ... 21oC in 2 days ... 23oC in 3 days ...&quot;
+// Your tasks:
+// 1. Create a function &#39;printForecast&#39; which takes in an array &#39;arr&#39; and logs a
+// string like the above to the console. Try it with both test datasets.
+// 2. Use the problem-solving framework: Understand the problem and break it up
+// into sub-problems!
+// Test data:
+// § Data 1: [17, 21, 23]
+// § Data 2: [12, 5, -5, 0, 4]
+console.log('Ex9: ');
+
+function printForecast(a) {
+    let newarr = [];
+    for (let i = 0; i < a.length; i++) {
+        let j = i + 1;
+        newarr.push(a[i] + 'oC in ' + j + ' days');
+    }
+    return newarr.forEach((e) => console.log(e));
+
+}
+let data1 = [17, 21, 23];
+let data2 = [12, 5, -5, 0, 4];
+console.log("with Data 1: ");
+printForecast(data1);
+console.log("with Data 2: ");
+printForecast(data2);
