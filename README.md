@@ -28,6 +28,9 @@ Bonus Part2 - Ex4:
 Ex9: 
 ![image](https://github.com/user-attachments/assets/7f63209c-bc52-4315-919d-287708fc3dd2)
 
+Rewrite: 
+Filter
+![image](https://github.com/user-attachments/assets/602923ee-6823-4978-8dea-4d55ac24d166)
 
 
 
