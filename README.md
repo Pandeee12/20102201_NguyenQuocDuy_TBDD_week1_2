@@ -32,6 +32,8 @@ Rewrite:
 Filter
 ![image](https://github.com/user-attachments/assets/602923ee-6823-4978-8dea-4d55ac24d166)
 
+Find
+![image](https://github.com/user-attachments/assets/572ceaeb-41ea-491a-9ee9-2288e595feab)
 
 
 
