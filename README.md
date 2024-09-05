@@ -47,5 +47,8 @@ ReduceRight:
 Map: 
 ![image](https://github.com/user-attachments/assets/4effab0a-7347-4c4c-bb0f-93e0dedc8680)
 
+ForEach: 
+![image](https://github.com/user-attachments/assets/373813f5-f97a-421f-b576-4b6c278e549d)
+
 
 
