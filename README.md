@@ -44,5 +44,8 @@ Reduce:
 ReduceRight:
 ![image](https://github.com/user-attachments/assets/c5508661-65a4-44e4-be51-0b4540b3d50c)
 
+Map: 
+![image](https://github.com/user-attachments/assets/4effab0a-7347-4c4c-bb0f-93e0dedc8680)
+
 
 
