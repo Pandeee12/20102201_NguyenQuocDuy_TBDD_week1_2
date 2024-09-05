@@ -38,4 +38,7 @@ Find
 Every:
 ![image](https://github.com/user-attachments/assets/83f4398a-b3b1-4583-9067-55e112dfffb3)
 
+Reduce: 
+![image](https://github.com/user-attachments/assets/82a56db1-d366-474b-b56e-0dc0985577ef)
+
 
