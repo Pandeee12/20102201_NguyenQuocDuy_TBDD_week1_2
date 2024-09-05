@@ -35,5 +35,7 @@ Filter
 Find
 ![image](https://github.com/user-attachments/assets/572ceaeb-41ea-491a-9ee9-2288e595feab)
 
+Every:
+![image](https://github.com/user-attachments/assets/83f4398a-b3b1-4583-9067-55e112dfffb3)
 
 
