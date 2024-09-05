@@ -41,4 +41,8 @@ Every:
 Reduce: 
 ![image](https://github.com/user-attachments/assets/82a56db1-d366-474b-b56e-0dc0985577ef)
 
+ReduceRight:
+![image](https://github.com/user-attachments/assets/c5508661-65a4-44e4-be51-0b4540b3d50c)
+
+
 
